@@ -4,6 +4,45 @@
   background-size: cover;
 }
 
+.main {
+  background: url(./images/bg.png) no-repeat center fixed;
+  background-size: cover;
+  padding: 4em 0;
+}
+
+section.about,
+section.news,
+section.popular-classes {
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 90px;
+  width: 1310px;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+  padding: 1em 2em 1.2em;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background-color: cornflowerblue;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.nav a {
+  font-size: 17px;
+  letter-spacing: 1px;
+  display: block;
+  margin: 18px, 0px;
+  text-decoration: none;
+  font-weight: 400px;
+}
+
 .banner-box {
   padding-top: 20px;
   max-width: 550px;
@@ -11,4 +50,49 @@
   background-color: rgba(255, 255, 255, 0.167);
   box-shadow: black;
   padding: 3em;
+}
+
+/* section .about {
+  width: 20px;
+} */
+
+.about,
+.news,
+.popular-classes {
+  text-align: center;
+}
+
+.about h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.about h3 {
+  font-size: 21px;
+}
+
+.about-content {
+  text-align: left;
+  width: 20%;
+}
+
+.hr {
+  width: 65px;
+  border: 1.2px solid red;
+}
+
+.yoga-img {
+  border: 2px solid #05d3eb;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.img-fluid {
+  max-height: 100%;
+  width: auto;
+  margin: auto;
+}
+
+.card-header {
+  background: none;
 }
