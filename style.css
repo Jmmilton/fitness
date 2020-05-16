@@ -103,6 +103,23 @@ section.popular-classes,
   margin-top: 3em;
 }
 
+.under-about button {
+  background-color: black;
+  border-radius: 0px;
+  border: 1px solid #333;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2.8px;
+  padding: 10px 28px;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.button-wrap {
+  text-align: center;
+}
+
 .hr {
   width: 65px;
   border: 1.2px solid red;
@@ -123,4 +140,42 @@ section.popular-classes,
 .card-header {
   background: none;
   border-bottom: none;
+}
+
+div.bottom {
+  padding-top: 60px;
+}
+
+.h4-p {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.under-about h4 {
+  font-weight: bold;
+}
+
+.under-about p {
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #888888;
+}
+
+.icon-border {
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgba(180, 174, 174, 0.822);
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.under-about span {
+  color: red;
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
