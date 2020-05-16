@@ -12,7 +12,8 @@
 
 section.about,
 section.news,
-section.popular-classes {
+section.popular-classes,
+.under-about {
   background-color: white;
   margin-right: auto;
   margin-left: auto;
@@ -62,18 +63,44 @@ section.popular-classes {
   text-align: center;
 }
 
-.about h2 {
+.about p {
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #888888;
+}
+
+.about h2.welcome {
   font-weight: 600;
   font-size: 40px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .about h3 {
   font-size: 21px;
 }
 
+.about h6 {
+  line-height: 1.8;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
 .about-content {
   text-align: left;
   width: 20%;
+}
+
+.about button {
+  background: none;
+  border-radius: 0px;
+  border: 1px solid #333;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 28px;
+  margin-top: 3em;
 }
 
 .hr {
@@ -95,4 +122,5 @@ section.popular-classes {
 
 .card-header {
   background: none;
+  border-bottom: none;
 }
