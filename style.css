@@ -1,13 +1,17 @@
 .home {
-  background-image: url(./images/blog1.jpg);
-  background-repeat: no-repeat center;
+  background: url(./images/blog1.jpg) no-repeat center;
   background-size: cover;
+  position: relative;
 }
 
 .main {
   background: url(./images/bg.png) no-repeat center fixed;
   background-size: cover;
   padding: 4em 0;
+}
+
+.body {
+  line-height: 1.5;
 }
 
 section.about,
@@ -24,11 +28,11 @@ section.gallery {
 }
 
 .nav {
-  padding: 1em 2em 1.2em;
+  padding: 1em 2.5em 1.2em 0em;
   right: 0;
   top: 0;
   position: absolute;
-  background-color: cornflowerblue;
+  background-color: #05d3eb;
 }
 
 .nav ul {
@@ -37,12 +41,23 @@ section.gallery {
 }
 
 .nav a {
+  color: #fff;
   font-size: 17px;
   letter-spacing: 1px;
   display: block;
-  margin: 18px, 0px;
+  margin: 18px 0px;
   text-decoration: none;
-  font-weight: 400px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: black;
+  transition: ease-in-out 300ms;
+}
+
+.banner-center {
+  padding: 15vw 0 16vw;
 }
 
 .banner-box {
@@ -50,8 +65,62 @@ section.gallery {
   max-width: 550px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.167);
-  box-shadow: black;
+  box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
   padding: 3em;
+}
+
+.social-icons li {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+
+.social-icons {
+  border-top: 1px solid rgba(255, 255, 255, 0.23);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+  margin-top: 2px;
+  margin-bottom: 2px;
+  transform: rotate(-8deg);
+}
+
+.social-icons a {
+  color: #fff;
+  letter-spacing: 20px;
+  padding-top: 20px;
+  padding-bottom: inherit;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: black;
+  transition: ease-in-out 300ms;
+}
+
+.box-button {
+  background: #fff;
+  border: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 28px;
+  margin-top: 3em;
+  text-transform: uppercase;
+}
+
+.banner-box h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner-box p {
+  font-size: 14px;
+  font-weight: 100;
+  color: #efefef;
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about,
@@ -101,6 +170,12 @@ section.gallery {
   margin-top: 3em;
 }
 
+.about button:hover,
+.under-about button:hover {
+  background-color: #888888;
+  transition: ease-in-out 300ms;
+}
+
 .under-about button {
   background-color: black;
   border-radius: 0px;
@@ -124,7 +199,7 @@ section.gallery {
 }
 
 .yoga-img {
-  border: 2px solid;
+  border: 2px solid #05d3eb;
   border-radius: 50%;
   padding: 6px;
 }
@@ -162,8 +237,9 @@ div.bottom {
 .under-about h4 {
   font-weight: bold;
 }
-
-.under-about p {
+.col-md-8 .col-md-4 {
+  padding-right: 0;
+  padding-left: 0;
   letter-spacing: 1px;
   font-size: 14px;
   line-height: 1.9;
