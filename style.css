@@ -14,7 +14,7 @@ section.about,
 section.news,
 section.popular-classes,
 .under-about,
-.gallery {
+section.gallery {
   background-color: white;
   margin-right: auto;
   margin-left: auto;
@@ -54,13 +54,10 @@ section.popular-classes,
   padding: 3em;
 }
 
-/* section .about {
-  width: 20px;
-} */
-
 .about,
 .news,
-.popular-classes {
+.popular-classes,
+.gallery {
   text-align: center;
 }
 
@@ -127,7 +124,7 @@ section.popular-classes,
 }
 
 .yoga-img {
-  border: 2px solid #05d3eb;
+  border: 2px solid;
   border-radius: 50%;
   padding: 6px;
 }
@@ -141,6 +138,16 @@ section.popular-classes,
 .card-header {
   background: none;
   border-bottom: none;
+}
+
+.card-header i {
+  background: #05d3eb;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div.bottom {
@@ -181,35 +188,23 @@ div.bottom {
   justify-content: center;
 }
 
-/* .gallery {
-  max-width: 100%;
+.card-col {
+  background: #fff;
+  border: none;
+  box-shadow: rgba(180, 174, 174, 0.822);
 }
-
-.flex-column {
-  max-width: 100%;
-}
-
-img {
-  margin: 5px;
-} */
 
 .gallery {
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  /* flex-wrap: wrap; */
+  align-content: center;
   justify-content: space-between;
 }
 
 .gallery img {
   height: 100%;
   width: 100%;
-}
-
-.thumbnail {
-  flex-grow: 1;
-  flex-basis: 125px;
-  max-width: 300px;
-  margin: 5px;
+  padding: 10px 10px;
 }
 
 @media (max-width: 575.98px) {
