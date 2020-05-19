@@ -13,7 +13,8 @@
 section.about,
 section.news,
 section.popular-classes,
-.under-about {
+.under-about,
+.gallery {
   background-color: white;
   margin-right: auto;
   margin-left: auto;
@@ -178,4 +179,61 @@ div.bottom {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* .gallery {
+  max-width: 100%;
+}
+
+.flex-column {
+  max-width: 100%;
+}
+
+img {
+  margin: 5px;
+} */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnail {
+  flex-grow: 1;
+  flex-basis: 125px;
+  max-width: 300px;
+  margin: 5px;
+}
+
+@media (max-width: 575.98px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 768.98px) and (min-width: 576px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1199.98px) and (min-width: 992px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
