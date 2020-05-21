@@ -7,7 +7,8 @@
 .main {
   background: url(./images/bg.png) no-repeat center fixed;
   background-size: cover;
-  padding: 4em 0;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .body {
@@ -23,7 +24,7 @@ section.gallery {
   margin-right: auto;
   margin-left: auto;
   padding: 90px;
-  width: 1310px;
+  /* width: 1310px; */
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
 }
 
