@@ -277,7 +277,7 @@ div.bottom {
   justify-content: space-between;
 }
 
-.gallery img {
+.gallery .img-fluid {
   height: 100%;
   width: 100%;
   padding: 10px 10px;
