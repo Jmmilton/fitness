@@ -287,6 +287,12 @@ div.bottom {
   .gallery .flex-row {
     flex-wrap: wrap;
   }
+  section {
+    box-shadow: none;
+  }
+  .main {
+    background: #fff;
+  }
 }
 @media (max-width: 768.98px) and (min-width: 576px) {
   .gallery .flex-row {
