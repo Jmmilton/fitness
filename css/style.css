@@ -1,11 +1,15 @@
 .home {
-  background: url(./images/blog1.jpg) no-repeat center;
-  background-size: cover;
-  position: relative;
+  background: url(../images/yogabg.jpeg);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh; 
 }
 
+
 .main {
-  background: url(./images/bg.png) no-repeat center fixed;
+  background: url(../images/bg.png) no-repeat center fixed;
   background-size: cover;
   padding-top: 4em;
   padding-bottom: 4em;
@@ -171,7 +175,8 @@ a:hover {
 }
 
 .about button:hover,
-.under-about button:hover {
+.under-about button:hover,
+.box-button:hover {
   background-color: #888888;
   transition: ease-in-out 300ms;
 }
