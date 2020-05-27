@@ -239,13 +239,13 @@ div.bottom {
 
 .h4-p {
   margin-left: 3em;
-  margin-right: 3em;
+  /* margin-right: 3em; */
 }
 
 .under-about h4 {
   font-weight: bold;
 }
-.col-md-8 .col-md-4 {
+.gal-col {
   padding-right: 0;
   padding-left: 0;
   letter-spacing: 1px;
@@ -336,6 +336,10 @@ input[type=submit]:hover {
   color: #05d3eb;
 }
 
+.top {
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 575.98px) {
   .gallery .flex-row {
@@ -349,11 +353,22 @@ input[type=submit]:hover {
   }
   section.about, section.news, section.popular-classes, .under-about, section.gallery, section.contact, section.footer {
     padding: 0;
+    padding-top: 55px;
+    padding-bottom: 20px;
   }
 
-  .about-icons{
-    display: flex;
-    justify-content: center;
+  .top, .bottom {
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+  }
+
+  .about-icons {
+    padding-top: 20px;
+  }
+
+  .h4-p {
+    padding-top: 20px;
   }
 
 
@@ -363,14 +378,22 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 
+  .top, .bottom {
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+  }
+
   .h4-p {
     padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
   }
   
+  .about-icons {
+    padding-top: 20px;
+  }
+
   .yoga-circle {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
   }
 
 }
@@ -380,15 +403,19 @@ input[type=submit]:hover {
   .gallery .flex-row {
     flex-wrap: wrap;
   }
-  .about-icons{
-    display: flex;
-    justify-content: center;
+
+  .top, .bottom {
+    flex-wrap: wrap;
+    padding-top: 20px;
+
   }
 
   .h4-p {
     padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
+  }
+  
+  .about-icons {
+    padding-top: 20px;
   }
   
 }
@@ -396,15 +423,19 @@ input[type=submit]:hover {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
-  .about-icons{
-    display: flex;
-    justify-content: center;
+
+  .top, .bottom {
+    flex-wrap: wrap;
+    padding-top: 20px;
+
   }
 
- .h4-p {
+  .h4-p {
     padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
+  }
+  
+  .about-icons {
+    padding-top: 10px;
   }
  
 }
@@ -413,29 +444,33 @@ input[type=submit]:hover {
     grid-template-columns: repeat(4, 1fr);
   }
   .top, .bottom {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
   }
 
   .h4-p {
-    padding-left: 40px;
+    padding-top: 40px;
   }
-
-  .top, .bottom {
-    justify-content: center;
-  }
-
- 
   
+  .about-icons {
+    padding-top: 10px;
+  }
+ 
 }
 @media (min-width: 1200px) {
   .gallery {
     grid-template-columns: repeat(5, 1fr);
   }
   .top, .bottom {
-    flex-wrap: nowrap;
-  }
-  .h4-p {
-    padding-left: 40px;
+    padding-top: 20px;
+
   }
 
-}
+  .h4-p {
+    padding-top: 40px;
+  }
+  
+  .about-icons {
+    padding-top: 10px;
+  }
