@@ -410,6 +410,14 @@ input[type=submit]:hover {
   .social{
     flex-direction: column;
   }
+  section.about,
+section.news,
+section.popular-classes,
+.under-about,
+section.gallery, section.contact,
+section.footer {
+  box-shadow: none;
+}
 }
 
 
