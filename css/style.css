@@ -254,7 +254,7 @@ div.bottom {
 
 .h4-p {
   margin-left: 3em;
-  /* margin-right: 3em; */
+  margin-right: 3em;
 }
 
 .under-about h4 {
@@ -384,6 +384,9 @@ input[type=submit]:hover {
 
   .h4-p {
     padding-top: 20px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .button-center {
