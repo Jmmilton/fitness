@@ -441,10 +441,6 @@ section.footer {
     padding-top: 20px;
   }
 
-  .yoga-circle {
-    padding-bottom: 60px;
-  }
-
   .button-center {
     display: flex;
     justify-content: center;
@@ -452,7 +448,9 @@ section.footer {
   .clearfix {
     display: none;
   }
-
+  .under-about {
+    padding-top: 0;
+  }
 }
   
 
@@ -482,6 +480,8 @@ section.footer {
   .clearfix {
     display: none;
   }
+
+
   
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
