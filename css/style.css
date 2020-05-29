@@ -356,6 +356,7 @@ input[type=submit]:hover {
   justify-content: center;
 }
 
+
 @media (max-width: 575.98px) {
   .gallery .flex-row {
     flex-wrap: wrap;
